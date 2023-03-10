@@ -1,0 +1,25 @@
+{
+    "name": "form-helper-axios",
+    "version": "1.0.26",
+    "description": "kode ini terinspirasi dari form inertia js",
+    "main": "index.js",
+    "scripts": {
+        "dev:patch": "npx tsc && npx auto-version --patch && npm publish",
+        "dev:minor": "npx tsc && npx auto-version --minor && npm publish",
+        "dev:major": "npx tsc && npx auto-version --major && npm publish"
+    },
+    "author": "",
+    "type": "module",
+    "license": "ISC",
+    "dependencies": {
+        "@vue/reactivity": "^3.2.47",
+        "auto-version-js": "^0.3.10",
+        "axios": "^1.3.4"
+    },
+    "devDependencies": {
+        "@types/node": "^18.14.2",
+        "nodemon": "^2.0.20",
+        "ts-node": "^10.9.1",
+        "typescript": "^4.9.5"
+    }
+}
